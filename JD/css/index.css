@@ -1,0 +1,129 @@
+/*nav-start*/
+.site-nav {
+    background-color: #F0F0F0;
+    height: 30px;
+    line-height: 30px;
+}
+.site-nav-send {
+    position: relative;
+    padding: 0 25px 0 10px;
+}
+.site-nav-send:hover {
+    background-color: #fff;
+}
+.site-nav-send i,
+.fore i {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    width: 15px;
+    height: 7px;
+    overflow: hidden;
+}
+.site-nav-send s,
+.fore s {
+    position: absolute;
+    top: -7px;
+    font: 400 12px/14px "consolas";
+}
+
+.site-nav-right li {
+    float: left;
+    padding: 0 10px;
+}
+.fore {
+    position: relative;
+}
+.site-nav-right .fore {
+    padding: 0 25px 0 10px;
+}
+.site-nav-right .line {
+    padding: 0;
+    margin-top: 9px;
+    width: 1px;
+    height: 12px;
+    background: #DEDEDE;
+}
+.site-nav-right .tel {
+    position: relative;
+    padding-left: 25px;
+}
+.site-nav-right .tel span {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    width: 15px;
+    height: 20px;
+    background: url("../images/tel.png") no-repeat;
+
+}
+/*nav-end*/
+
+
+/*top-banner begin*/
+.top-banner {
+    background-color: #00c1fe;
+}
+.banner-img {
+    position: relative;
+}
+.close-banner {
+    position: absolute;
+    background: url("../images/close-banner.png") no-repeat;
+    width: 19px;
+    height: 19px;
+    top: 5px;
+    right: 5px;
+}
+.close-banner:hover {
+    background-position: bottom;
+}
+/*top-banner end*/
+
+/*search-begin*/
+.logo {
+    float: left;
+    padding: 20px 0;
+    width: 360px;
+    height: 60px;
+}
+.logo a {
+    float: left;
+    text-indent: -9999px;
+    width: 270px;
+    height: 60px;
+    background: url("../images/logo.png") no-repeat;
+}
+.search-top {
+    float: left;
+    width: 538px;
+    height: 36px;
+    padding-top: 25px;
+}
+.search-top input {
+    padding-left:5px;
+    float: left;
+    color: #cccccc;
+    width: 449px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    border-right:0;
+}
+.search-top button {
+    float: left;
+    height: 36px;
+    width: 82px;
+    background-color: #B61D1D;
+    color: #fff;
+    font: 400 16px/36px "microsoft yahei";
+    cursor: pointer;
+}
+
+.searchHint {
+    float: left;
+
+}
+.shopping-car {
+    float: right;
+}
+/*search-end*/
