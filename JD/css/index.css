@@ -118,12 +118,60 @@
     font: 400 16px/36px "microsoft yahei";
     cursor: pointer;
 }
+.shopping-car {
+    float: right;
+    position: relative;
+    border: 1px solid #E0E0E0;
+    width: 98px;
+    height: 34px;
+    line-height: 34px;
+    margin: 25px 60px 0 0;
+    padding-left: 40px;
+    background-color: #F9F9F9;
+
+}
+
+.shopping-car .car-img {
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    top: 9px;
+    left: 15px;
+    background: url("../images/tel.png") no-repeat 0 -58px;
+}
+.shopping-car .right-arrows {
+    position: absolute;
+    right: 10px;
+    font: 400 14px/34px "simsun";
+}
+.shopping-car .number {
+    position: absolute;
+    background-color: #B61D1D;
+    color: #fff;
+    top: -5px;
+    width: 17px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    border-radius: 7px 7px 7px 2px;
+}
 
 .searchHint {
     float: left;
+    width: 520px;
+    height: 30px;
+    line-height: 30px;
+}
+.searchHint a {
+    margin-right: 7px;
+}
 
-}
-.shopping-car {
-    float: right;
-}
 /*search-end*/
+
+/*footer-begin*/
+.footer-top-slogan {
+    width: 100%;
+    height: 92px;
+    background-color: red;
+}
+/*footer-end*/
