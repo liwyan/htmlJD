@@ -175,6 +175,7 @@
     border-bottom: 2px solid #B1191A;
 }
 .shortcut-nav-menu {
+    position: relative;
     float: left;
     height: 44px;
     width: 210px;
@@ -193,6 +194,27 @@
     background-color: #C81623;
     border-left: 1px solid #B1191A;
     border-bottom: 1px solid #B1191A;
+}
+.shortcut-nav-menu-ones div {
+    height: 31px;
+}
+.shortcut-nav-menu-ones div:hover {
+    background-color: #fff;
+}
+.shortcut-nav-menu-ones div:hover h3 {
+    color: #C81623;
+}
+.shortcut-nav-menu-ones h3 {
+    float: left;
+    margin-left: 10px;
+    font: 400 15px/31px "simsun";
+    color: white;
+}
+.shortcut-nav-menu-ones i {
+    float: right;
+    margin-right: 10px;
+    color: white;
+    font: 400 12px/31px "consolas";
 }
 
 .shortcut-nav-titles {
@@ -215,6 +237,96 @@
     background: url("../images/shortcut_go.jpg") no-repeat;
 }
 /*shortcut-nav end*/
+
+/*main-begin*/
+.main-slider {
+    position: relative;
+    float: left;
+    margin: 12px 0px 0px 220px;
+}
+.main-slider ul {
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    margin-left: -66px;
+}
+.main-slider li {
+    float: left;
+    margin: 0 2px;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.main-slider .main-slider-num-current {
+    background-color: #C81623;
+}
+.main-slider-arrow {
+    width: 100%;
+}
+.main-slider-arrow a {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 25px;
+    height: 60px;
+    background: rgba(0,0,0,.3);
+    color: #fff;
+    text-align: center;
+    font: 400 16px/60px "consolas";
+}
+.main-slider-arrow a:hover {
+    background: rgba(0,0,0,.6);
+}
+.main-slider-arrow-left {
+    left: 0;
+}
+.main-slider-arrow-right {
+    right: 0;
+}
+.main-news {
+    float: right;
+    width: 250px;
+    height: 454px;
+    margin-top: 12px;
+}
+.main-news-top {
+    width: 100%;
+    height: 375px;
+    border: 1px solid #E4E4E4;
+}
+.main-news-top-faster {
+    height: 163px;
+    border-bottom: 1px dotted #E4E4E4;
+}
+.main-news-top-faster-title {
+    height: 32px;
+    border-bottom: 1px dashed #E8E8E8;
+}
+.main-news-top-faster-title h3 {
+    float: left;
+    font: 400 15px/32px "microsoft yahei";
+    padding-left: 10px;
+}
+.main-news-top-faster-title a {
+    margin-right: 10px;
+    float: right;
+    font: 400 13px/32px "microsoft yahei";
+}
+.main-news-top-faster-list ul {
+    padding: 6px 10px;
+}
+.main-news-top-faster-list a {
+    height: 24px;
+    line-height: 24px;
+}
+.main-news-bottom {
+    padding-top: 5px;
+}
+/*main-end*/
 
 /*footer-begin*/
 .footer-top-slogan {
